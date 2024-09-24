@@ -199,3 +199,180 @@ footer p{
         justify-content: center !important;
     }
 }
+
+/*==============CSS PARA CONTACTOS ============*/
+
+body.tercerapagina {
+    font-family: 'Work Sans', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #343a40;
+}
+
+.navbar-brand {
+    color: #ffffff;
+}
+
+.nav-link {
+    color: #ffffff;
+}
+
+.nav-link:hover {
+    color: #ffc107;
+}
+
+.contact-panel {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-panel h2 {
+    text-align: center;
+    color: #333333;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333333;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #343a40;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/*======================== CSS PARA UBICACION ================*/
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; 
+    color: #333; 
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+header {
+    background-color: #1b2a4e; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+/* Navegación */
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline; /* Subrayar al pasar el mouse */
+}
+
+/* Sección de ubicación */
+#seccion-ubicacion {
+    text-align: center;
+    margin: 40px 0;
+    padding: 20px;
+    background-color: #ffffff; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+#seccion-ubicacion h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+#seccion-ubicacion img {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 8px; 
+}
+
+/* footer */
+footer {
+    background-color: #1b2a4e; /* Color del pie de página */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+#iconos a {
+    color: white; /* Color de los íconos */
+    margin: 0 10px;
+    font-size: 1.5rem; /* Tamaño de los íconos */
+}
+
+#iconos a:hover {
+    color: #ffc107; /* Color al pasar el mouse */
+}
