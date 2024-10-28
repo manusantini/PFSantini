@@ -28,14 +28,33 @@ body {
 
 /*===================SECCION SOBRE NOSOTROS==========================*/
 
+#seccion-nosotros {
+    padding: 40px 0; /* Padding superior e inferior */
+}
 .icono-wrap img {
     max-width: 800px; /* Cambia este valor para el tamaño deseado */
     height: auto; /* Mantiene la proporción */
     object-fit: cover; /* Ajusta cómo se recortan las imágenes */
     margin-right: 15px; /* Espacio entre la imagen y el texto */
+    margin-bottom: 40px; /* Aumenta el espaciado entre filas */
+    padding: 0 15px; /* Padding lateral */
 }
-
-
+.img1:hover{
+    transform: scale(1.2,1.1);
+    transition: all 1s;
+}
+.img2:hover{
+    transform: scale(1.2,1.1);
+    transition: all 1s;
+}
+.img3:hover{
+    transform: scale(1.2,1.1);
+    transition: all 1s;
+}
+.img4:hover{
+    transform: scale(1.2,1.1);
+    transition: all 1s;
+}
 /*===================SECCION MAPA==========================*/
 #local {
     margin-top:50px;
@@ -45,12 +64,11 @@ body {
     padding-bottom: 300px; 
 }
 
-.mapa {
+.mapa{
     background: url(../img/mapa.jpg.jfif);
     width:100%;
-    height:500px;
+    height:200px;
 }
-
 
 .wrapper-local {
     width:50%;
@@ -306,8 +324,9 @@ body {
 header {
     background-color: #1b2a4e; 
     color: white;
-    padding: 20px;
+    padding: 30px;
     text-align: center;
+    
 }
 
 header h1 {
